@@ -1,5 +1,6 @@
 # Проектный практикум 1 — Кейс 2: отток абонентов телеком-оператора
 
-Ноутбук `churn_telco.ipynb`: загрузка данных по ссылке → EDA (в т.ч. Phik) → логистическая регрессия и случайный лес → ключевые факторы риска.
+Ноутбук `churn_telco.ipynb`: загрузка данных по ссылке → автоотчёт ydata-profiling → EDA (countplot, KDE, boxplot/violin, Plotly scatter, Phik) → логистическая регрессия и случайный лес (ROC-кривые) → ключевые факторы риска → сохранение модели.
 
 Запуск: `pip install -r requirements.txt`, затем `jupyter notebook churn_telco.ipynb` → Run All.
+Создаются файлы `eda_report.html` и `best_churn_model.joblib` (в git не попадают).
