@@ -5,6 +5,7 @@ matplotlib
 seaborn
 phik
 plotly
+shap
 ydata-profiling
 joblib
 jupyter
